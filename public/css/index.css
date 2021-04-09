@@ -1,0 +1,162 @@
+
+@charset "utf-8";
+*{ margin:0; padding:0;box-sizing: border-box;}
+html, body {
+  position: relative;
+  height: 100%;
+  /* font-family: DeliciousRoman; */
+ 
+}
+h1,h2,h3,h4,h5{
+	font-family: inherit;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.pull-left {
+    float: left!important;
+	position: relative;
+	height: 100%;
+}
+.Notice{
+	width: 100%;
+	height: 138px;
+	background-color: #ffffff;
+	font-size: 36px;
+	white-space:wrap;
+	padding: 0 25px;
+	display: flex;
+	align-items: center;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+
+.thead tr{
+	border-right: 2px solid #d2d2d2;
+}
+.table .numBox .h4 img{
+	margin-right: 10px;
+}
+.table .numBox .h4{
+	font-size: 30px !important;
+	font-weight: 600;
+	padding-left: 30px;
+	display: flex;
+	align-items: center;
+}
+.table .numBox .p{
+	padding-left: 70px;
+	line-height: 18px;
+}
+.table .colspan{
+	align-items: baseline !important;
+}
+.table .numBox{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.table .tit_bus_next .numBox .num{
+	font-size: 68px;
+	padding: 0;
+	margin: 0;
+	margin-top: 7px;
+}
+.table .numBox .num{
+	font-size: 75px;
+}
+.table .numBox .h3{
+	font-size: 40px;
+	font-weight: bold;
+}
+.table .font .num{
+	font-size: 80px;
+}
+.table .font .h3{
+	font-size: 30px !important;
+	font-weight: 500;
+}
+.table .numBox p{
+	font-size: 18px !important;
+}
+.table .imgBox{
+	display: flex;
+	align-items: center;
+}
+.table .imgBox .icon_disabled{
+	height: 32px;
+	position: inherit !important;
+	margin-right: 10px !important;
+}
+.table .imgBox .icon_people{
+	height: 32px;
+	position: inherit !important;
+}
+.table>tbody>td{
+	height: 130px !important;		
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  /* padding: 8px; */
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+h1{font-family: inherit;line-height: 1.1;color: inherit;}
+h5{font-family: inherit;font-weight: 500;line-height: 1.1;color: inherit;}
+/*epaper 13吋單列*/
+.box_Bus .table{margin-bottom: 2px;}
+.box_Bus .table>thead>tr>th{background: #e6e6e6;padding: 10px 0 7px 15px;}
+.box_Bus .table>thead>tr>th h5{font-size: 30px;color: #000;margin: 0;}
+.box_Bus .table>thead>tr>th p{font-size: 20px;color: #000;margin: 0;}
+/* .box_Bus .table>tbody>tr>td{padding: 15px 8px;} */
+.box_Bus .table>tbody>tr>td.tit_line{color: #fff;background: #000;text-align: center;font-size: 72px;font-weight: bold;display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box_Bus .table>tbody>tr>td.tit_bus{padding-left: 10%;}
+.box_Bus .table>tbody>tr>td.tit_bus h1{font-size: 100px;font-weight: bold;margin: 0 10px 0 0;}
+.box_Bus .table>tbody>tr>td.tit_bus h5{font-size: 36px;font-weight: bold;margin-bottom: 5px;margin-top: 14px;}
+.box_Bus .table>tbody>tr>td.tit_bus p{margin: 0;font-size: 20px;}
+.box_Bus .table>tbody>tr>td.tit_bus .icon_disabled{/* margin: 15px 0 0 15px; */width: 32px;display: block;position: absolute;top: 20px;left: 15px;}
+.box_Bus .table>tbody>tr>td.tit_bus .icon_people{/* margin: 10px 0 0 15px; */width: 100px;display: block;position: absolute;top: 75px;left: 15px;}
+/* .box_Bus .table>tbody>tr>td.tit_bus .icon_people_di{margin-top: 55px;} */
+.box_Bus .table>tbody>tr>td.tit_bus_next{/* padding-top: 15px; */}
+.box_Bus .table>tbody>tr>td.tit_bus_next h1{font-size: 80px;margin-top: 20px;font-weight: 400;}
+.box_Bus .table>tbody>tr>td h3{font-size: 41px;font-weight: bold;}
+.box_Bus .table>tbody>tr>td.tit_bus_next h5{font-size: 24px;margin-top: 25px;}
+.box_Bus .table>tbody>tr>td p{margin: 0;font-size: 18px;}
+.box_Bus .table>tbody>tr{background: #fff;}
+.box_Bus .table>tbody>tr.bg_gray{background: #e6e6e6;}
+.box_Bus .table>tbody>tr>td{border-top: 2px solid #fff;}
+.box_Bus .table>tbody>tr>td.written_words{font-size: 36px;background: #fff;color: #000;border-top: 2px solid #e6e6e6;}
+.box_Footer{background: #000;font-size: 18px;padding: 8px 30px;width: 100%;color: #fff;line-height: 62px;}
+
+/*index_Diallel*/
+.box_Bus_diallel .table>tbody>tr>td.tit_bus .icon_disabled{display: inline-block;margin: 0;}
+.box_Bus_diallel .table>tbody>tr>td.tit_bus .icon_people{display: inline-block;margin: 0;}
+/* .box_Bus_diallel .table>tbody>tr>td{padding: 9px 8px 10px;} */
+.box_Bus_diallel .table>tbody>tr>td.tit_line{font-size: 74px;}
+.box_Bus_diallel .table>tbody>tr>td.tit_bus h1{font-size: 82px;}
+.box_Bus_diallel .table>tbody>tr>td.tit_bus_next h1{font-size: 64px;}
+.box_Bus_diallel .table>thead>tr>th{vertical-align: top;}
+.box_Bus_diallel .table>tbody>tr>td.tit_bus{padding-left:5%;}
+.box_Bus_diallel .table>tbody>tr>td.tit_bus p{line-height: 15px;}
+.box_Bus_diallel .table>tbody>tr>td.tit_bus .bus-img{padding: 0;position: relative;}
+
+/*index_Diallel_text*/
+.index_Diallel_text .table{margin-bottom: 0;}
+.written_words{font-size: 36px;background: #fff;color: #000;padding: 15px;}
+
+
+
